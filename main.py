@@ -34,7 +34,7 @@ def isCollide(data):
 if __name__ == "__main__":
     print("Hey.. Dino game about to start in 3 seconds")
     time.sleep(5)
-    hit('space')
+    hit('space') #to start the game
     time.sleep(2)
     while True:
         image = ImageGrab.grab().convert('L') #.convert('L') returns a grayscale image
