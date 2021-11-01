@@ -2,10 +2,9 @@ import pyautogui  # pip install pyautogui
 from PIL import Image, ImageGrab  # pip install pillow
 import time
 # ImageGrab will take a screenshot of your current screen/window
-# PIL will help us perform a function(pressing of a key using pyautogui),
-# if at a particular coordinate PIL didects dark pixel.(Obstacle)
+# pyautogui will help us perform a function(pressing of a key using pyautogui),
+# if at a particular coordinate of the picture grabed by PIL there is dark pixel.(Obstacle)
 # from numpy import asarray
-
 
 
 # Function which will help us to hit any key when needed.
